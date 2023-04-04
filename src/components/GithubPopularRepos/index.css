@@ -1,0 +1,21 @@
+/* Write your CSS here */
+.title {
+  font-family: 'Lobster';
+}
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.languages {
+  display: flex;
+  list-style-type: none;
+  margin-bottom: 50px;
+}
+.ListItems {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 50%;
+}

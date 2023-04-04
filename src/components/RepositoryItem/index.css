@@ -1,0 +1,32 @@
+/* Write your CSS here */
+.list {
+  list-style-type: none;
+  height: 300px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  background-color: #f8f8ff;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.image {
+  height: 70px;
+  width: 70px;
+}
+.min-image {
+  height: 10px;
+  margin-right: 10px;
+}
+.name {
+  color: #e73959;
+  font-family: bold;
+  font-size: 'Roboto';
+}
+.para {
+  color: #1e293b;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
