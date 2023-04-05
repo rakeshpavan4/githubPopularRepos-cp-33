@@ -1,0 +1,17 @@
+/* Write your CSS here */
+.nonactivebutton {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-family: 'Roboto';
+  color: #1e293b;
+  font-weight: bold;
+}
+.activebutton {
+  background-color: transparent;
+  border: 2px solid #0284c7;
+  cursor: pointer;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #1e293b;
+}
