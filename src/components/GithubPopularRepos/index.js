@@ -32,7 +32,7 @@ class GithubPopularRepos extends Component {
     this.getDidMount()
   }
 
-  onChangeItem = id => {
+  onChangeItems = id => {
     this.setState({activeOptionId: id}, this.getDidMount)
   }
 
@@ -113,6 +113,7 @@ class GithubPopularRepos extends Component {
               details={each}
               key={each.id}
               isActive={activeOptionId === each.id}
+              onChangeItems={this.onChangeItems}
             />
           ))}
         </ul>
